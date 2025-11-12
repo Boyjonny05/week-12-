@@ -56,3 +56,9 @@ elif score >= 60 and score <= 69:
     print("you got a d")
 else:
     print("you failed")
+# ask for password
+password = input("What is your password")
+if len(password) >= 8 and any(char.isdigit() for char in password):
+    print("Password is valid.")
+else:
+    print("Password is invalid. " "It must be at least 8 characters long and contail at least one digit")
