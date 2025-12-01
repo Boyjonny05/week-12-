@@ -1,3 +1,28 @@
+fruits = ["apple", "orange", "banana", "coconut"]
+vegetables = ["celery", "carrots", "potatoes"]
+meats = ["chicken", "fish", "turkey"]
+
+groceries = [fruits, vegetables, meats]
+
+# print(groceries[0][0])
+# print(groceries[1][1])
+
+for collection in groceries :
+    for food in collection :
+     print(food)
+
+
+num_pad = ((1, 2, 3),
+            (4, 5, 6)
+            (7, 8, 9)
+            ("*", 0, "#"))
+
+for row in num_pad :
+    for row in row :
+       print(num_pad, end= "")
+       print()
+
+
 # Objective:
 # Students will manipulate nested lists and understand basic list comprehensions.
 
@@ -35,9 +60,11 @@ print(first_col)       # [1, 4, 7]
 # Practice Problems:
 
 # Build a matrix variable containing 3 lists of 3 numbers each.
-
+list = ((1, 2, 3)
+        (4, 5, 6)
+        (7, 8, 9))
 # Print the first list.
-
+print(list[0])
 # Print the second item from the third list.
 
 # Use a list comprehension to extract the last item from each sub-list.
